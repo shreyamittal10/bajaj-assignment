@@ -14,7 +14,7 @@ function InputForm({ setResult }) {
   .filter(item => item !== "");
 
       const response = await fetch(
-        "http://localhost:5000/bfhl",
+        "https://backend-j5i6.onrender.com/bfhl",
         {
           method: "POST",
           headers: {
